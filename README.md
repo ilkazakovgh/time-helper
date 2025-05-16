@@ -8,7 +8,7 @@ PHP >= 8.1
 ## Installation
 
 ```bash
-composer require your-vendor-name/timezone-clock
+composer ilya-kazakov/time-helper
 ```
 
 ## Usage
