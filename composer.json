@@ -1,0 +1,16 @@
+{
+    "name": "ilya-kazakov/time-helper",
+    "description": "Example of package for composer",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "IlyaKazakov\\TimeHelper\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ilya Kazakov"
+        }
+    ],
+    "require": {}
+}
