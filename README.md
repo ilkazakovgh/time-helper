@@ -16,10 +16,10 @@ composer require your-vendor-name/timezone-clock
 ```
 <?php
 
-require 'vendor/autoload.php';
+require __DIR__ . '/vendor/autoload.php';
 
-use IlyaKazakov\TimeHelper;
+use IlyaKazakov\TimeHelper\TimeHelper;
 
-echo "Moscow time: " . TimezoneClock::getMoscowTime() . "\n";
-echo "GMT time: " . TimezoneClock::getGMTTime() . "\n";
+echo "Moscow time: " . TimeHelper::getMoscowTime() . "\n";
+echo "GMT time: " . TimeHelper::getGMTTime() . "\n";
 ```
