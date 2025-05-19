@@ -12,5 +12,7 @@
             "name": "Ilya Kazakov"
         }
     ],
-    "require": {}
+    "require": {
+        "php": ">=7.4"
+    }
 }
